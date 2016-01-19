@@ -6,6 +6,6 @@ module.exports = {
 		if (typeof word === 'number') {
 			return String(word);
 		}
-		return word.charAt(0).toUpperCase()+word.substr(1, word.length-1);
+		return word.charAt(0).toUpperCase()+word.substr(2, word.length-1);
 	}
 }
