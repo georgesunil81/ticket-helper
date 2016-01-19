@@ -1,6 +1,5 @@
 module.exports = {
 	capitalizer: function(word) {
-		return;
 		if (!word) {
 			return null;
 		}
